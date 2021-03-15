@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Giancarlo Massimo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="slideshow.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        
+        <div class="main">
+            <!-- Slideshow code from W3 Schools -->
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="images/jumpers-journey/thumbnail.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="images/rotations/thumbnail.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="images/reflective-shield/thumbnail.png" style="width:100%">
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <br>
+
+
+            <div id="navButtonsContainer">
+                <div style="flex: 50%; margin: auto;"><a href="about-me.html" style="text-decoration: none;"><div class="navButton" style="background-color: #0A3D47;">About</div></a></div>
+                <div style="flex: 50%; margin: auto;"><a href="games.html" style="text-decoration: none;"><div class="navButton" style= "background-color:#FF6D33;">Games</div></a></div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <script src="slideshow.js"></script>
+
+        <header>
+            <h1 class="headerText">Giancarlo Massimo</h1>
+
+            <div class="navbutton" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </header>
+
+        <div id="menu" class="overlay">
+            <div class="overlayContent">
+                <a href="index.html">Home</a>
+                <a href="games.html">Published Games</a>
+                <a href="other.html">Other Projects</a>
+                <a href="about-me.html">About Me</a>
+            </div>
+        </div>
+    </body>
+</html>

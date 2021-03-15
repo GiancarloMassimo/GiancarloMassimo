@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 75%;
+    margin: auto;
+    border: 1px solid #1E1E24;
+}
+  
+th {
+    text-align: left;
+    padding: 16px;
+}
+
+th a {
+    text-decoration: none;
+    color: #0A3D47;
+    font-family: headerFont;
+    font-size: 20pt;
+    letter-spacing: 3px;
+}
+  
+tr:nth-child(even) {
+    background-color: #9F9893;
+}

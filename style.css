@@ -1,0 +1,63 @@
+@font-face {
+    font-family: headerFont;
+    src: url("fonts/headerfont.otf");
+}
+
+@font-face {
+    font-family: textFont;
+    src: url("fonts/textfont.ttf");
+}
+
+
+body, html {
+	margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color:  #F6F8F2;
+}
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #0A3D47;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12vmax;
+    box-shadow: 0px 8px 8px 0 rgba(0, 0, 0, 0.2), 0px 16px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transition: 0.2s;
+}
+
+.headerText {
+    color: #F6F8F2;
+    font-size: 5vw;
+    letter-spacing: 8px;
+    margin: 0;
+    font-family: headerFont;
+    display: inline-block;
+    user-select: none;
+
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.main {
+    margin-top: 12vmax;
+    width: 100%;
+    display: inline-block;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #9F9893;
+}
+
